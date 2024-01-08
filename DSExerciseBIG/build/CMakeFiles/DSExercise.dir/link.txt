@@ -1,0 +1,3 @@
+D:\Cmake\bin\cmake.exe -E rm -f CMakeFiles\DSExercise.dir/objects.a
+C:\Coding\mingw64\bin\ar.exe qc CMakeFiles\DSExercise.dir/objects.a @CMakeFiles\DSExercise.dir\objects1.rsp
+C:\Coding\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\DSExercise.dir/objects.a -Wl,--no-whole-archive -o DSExercise.exe -Wl,--out-implib,libDSExercise.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\DSExercise.dir\linklibs.rsp
